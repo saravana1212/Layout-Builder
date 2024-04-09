@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.configuration-controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #475569;
+  align-self: stretch;
+}
+@media screen and (min-width: 768px) {
+  .configuration-controls-container {
+    align-items: center;
+  }
+}
+.responsive-controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 550px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .responsive-controls-container {
+    max-width: 1140px;
+  }
+}
+.layout-heading {
+  color: white;
+  font-size: 34px;
+  font-family: roboto;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .layout-heading {
+    font-size: 48px;
+  }
+}
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.label-text {
+  color: white;
+  font-size: 14px;
+  font-family: roboto;
+  font-weight: 600;
+  margin-left: 12px;
+}
